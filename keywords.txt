@@ -1,15 +1,80 @@
-#keywords.txt is formatted in four fields which are separated by a single true tab (not spaces):
-#KEYWORD	KEYWORD_TOKENTYPE	REFERENCE_LINK	RSYNTAXTEXTAREA_TOKENTYPE
-
-
-# Syntax Coloring Map For ExampleLibrary
+# Syntax Coloring Map for QMI8658 Library
 
 # Datatypes (KEYWORD1)
-Test	KEYWORD1
+QMI8658	KEYWORD1
+AccelData	KEYWORD1
+GyroData	KEYWORD1
+IMUData	KEYWORD1
+Quaternion	KEYWORD1
+AttitudeData	KEYWORD1
+AccelRange	KEYWORD1
+GyroRange	KEYWORD1
+AccelODR	KEYWORD1
+GyroODR	KEYWORD1
+LowPassFilter	KEYWORD1
+FIFOMode	KEYWORD1
+FIFOSize	KEYWORD1
+InterruptPin	KEYWORD1
 
 # Methods and Functions (KEYWORD2)
-doSomething	KEYWORD2
-
-# Instances (KEYWORD2)
+begin	KEYWORD2
+configAccel	KEYWORD2
+configGyro	KEYWORD2
+configLowPassFilter	KEYWORD2
+enableAccel	KEYWORD2
+enableGyro	KEYWORD2
+enableSyncSample	KEYWORD2
+setClock	KEYWORD2
+dataReady	KEYWORD2
+readAccel	KEYWORD2
+readGyro	KEYWORD2
+readBoth	KEYWORD2
+readTemperature	KEYWORD2
+readTimestamp	KEYWORD2
+configInterrupt	KEYWORD2
+enableAccelDataReadyInt	KEYWORD2
+enableGyroDataReadyInt	KEYWORD2
+disableDataReadyInt	KEYWORD2
+enableTapDetection	KEYWORD2
+disableTapDetection	KEYWORD2
+readTapStatus	KEYWORD2
+enableAnyMotion	KEYWORD2
+enableNoMotion	KEYWORD2
+enableSignificantMotion	KEYWORD2
+disableMotionDetection	KEYWORD2
+readMotionStatus	KEYWORD2
+enablePedometer	KEYWORD2
+disablePedometer	KEYWORD2
+readStepCount	KEYWORD2
+resetStepCount	KEYWORD2
+configFIFO	KEYWORD2
+setFIFOWatermark	KEYWORD2
+readFIFOCount	KEYWORD2
+readFIFOSample	KEYWORD2
+readFIFO	KEYWORD2
+resetFIFO	KEYWORD2
+enableAttitudeEngine	KEYWORD2
+disableAttitudeEngine	KEYWORD2
+readAttitude	KEYWORD2
+reset	KEYWORD2
+selfTest	KEYWORD2
+whoAmI	KEYWORD2
+revisionID	KEYWORD2
+getError	KEYWORD2
 
 # Constants (LITERAL1)
+RANGE_2G	LITERAL1
+RANGE_4G	LITERAL1
+RANGE_8G	LITERAL1
+RANGE_16G	LITERAL1
+RANGE_16DPS	LITERAL1
+RANGE_32DPS	LITERAL1
+RANGE_64DPS	LITERAL1
+RANGE_128DPS	LITERAL1
+RANGE_256DPS	LITERAL1
+RANGE_512DPS	LITERAL1
+RANGE_1024DPS	LITERAL1
+RANGE_2048DPS	LITERAL1
+QMI8658_I2C_ADDRESS_LOW	LITERAL1
+QMI8658_I2C_ADDRESS_HIGH	LITERAL1
+QMI8658_WHO_AM_I_DEFAULT	LITERAL1
